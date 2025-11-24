@@ -28,10 +28,6 @@ or run headless monitor (not included by default) — edit `main.py` to use moni
 - Quarantine moves files — ensure you have backups before restoring.# 🛡️ Ransomware Defender (Level-4) — File Behavior Monitor (Enhanced)
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x200?text=RANSOMWARE+DEFENDER" alt="Project Banner"/>
-</p>
-
-<p align="center">
   <b>A Real-Time AI-Driven Ransomware Detection & Response System 🚨</b>
 </p>
 

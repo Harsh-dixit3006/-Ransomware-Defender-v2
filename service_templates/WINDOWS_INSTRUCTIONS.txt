@@ -1,0 +1,14 @@
+Windows Service instructions
+----------------------------
+You can run the tool as a service using NSSM (Non-Sucking Service Manager) or create a Windows service wrapper.
+
+Example with NSSM:
+1. Download NSSM (https://nssm.cc/)
+2. nssm install RansomwareDefender
+   Path: /usr/local/bin/python3
+   Startup directory: /mnt/data/ransomware_defender
+   Arguments: /mnt/data/ransomware_defender\main.py
+3. Configure restart options and install.
+4. Start the service via Services MMC or `nssm start RansomwareDefender`
+
+Note: Running GUI as a service is not recommended; for headless service, modify main.py to run monitor without GUI.

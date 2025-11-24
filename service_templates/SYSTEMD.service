@@ -1,0 +1,15 @@
+# Example systemd service unit for ransomware_defender
+[Unit]
+Description=Ransomware Defender (Level-4)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/mnt/data/ransomware_defender
+ExecStart=/usr/local/bin/python3 /mnt/data/ransomware_defender/main.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

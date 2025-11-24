@@ -12,16 +12,6 @@ GitHub: https://github.com/Harsh-dixit3006
 - `service_templates/` includes a systemd unit sample and Windows instructions.
 - Safer process termination (terminate -> wait -> kill fallback).
 
-**Usage**
-1. Install dependencies:
-```
-pip install -r requirements.txt
-```
-2. Run GUI:
-```
-python main.py
-```
-or run headless monitor (not included by default) — edit `main.py` to use monitor directly.
 
 **Security & Safety**
 - Always test in a controlled environment.
